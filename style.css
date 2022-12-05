@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppings", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3edf0;
+    color: #1d0029;
+}
+
+#header {
+width:100%;
+height: 100vh;
+background-image: url(images/wallpaper-2.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.container{
+    padding: 10px 5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+    height:70px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #1d0029;
+    text-decoration: none;
+    font-size: 17px;
+}
