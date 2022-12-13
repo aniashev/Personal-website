@@ -399,9 +399,18 @@ margin: 0 auto;
 .course_item{
   font-size: var(--h3-font-size);
   margin: var(--mb-2);
-  margin-bottom: .25rem;
+  margin-bottom: 2rem;
   list-style-type: disc;
   margin-left: var(--mb-5);
+  list-style: none;
+}
+
+.course_item::before{
+    content: "\2022";
+    color: var(--first-color-darken);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .program-description{
@@ -411,6 +420,11 @@ margin: 0 auto;
 .section_ubc{
   color: var(--text-color-light);
 }
+
+.certificates_button{
+text-align: center;
+}
+
 /* ===== SERVICES =====*/
 
 
