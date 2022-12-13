@@ -292,12 +292,12 @@ row-gap: 2rem;
   text-align: center;
 }
 
-.align_description{
+.about_description{
   margin-bottom: var(--mb-4);
 }
 
 .about_image {
-width: 150px;
+width: 300px;
 border-radius: .5rem;
 margin: 0 auto;
 }
@@ -383,9 +383,33 @@ margin: 0 auto;
   width: 60%;
 }
 /* ===== EDUCATION =====*/
+.education_container{
+  row-gap: 2rem;
+  margin-left: var(--mb-2);
+}
 
+.education_content{
+  display: grid;
+}
+
+.program_description{
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+}
 .course_item{
+  font-size: var(--h3-font-size);
+  margin: var(--mb-2);
+  margin-bottom: .25rem;
   list-style-type: disc;
+  margin-left: var(--mb-5);
+}
+
+.program-description{
+  display: flex;
+  align-items: center;
+}
+.section_ubc{
+  color: var(--text-color-light);
 }
 /* ===== SERVICES =====*/
 
